@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Database vs. Spreadsheets | Tingting (Rachel) Chung</title>
+  <meta name="description" content="Introduction to Database vs. Spreadsheets - a hands-on classroom exercise using candy store simulations to teach database design concepts.">
+  <link rel="stylesheet" href="assets/css/wm-brand.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="site-nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">Tingting (Rachel) Chung</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">Bio</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li class="nav-dropdown">
+        <a href="teaching.html" class="active">Teaching</a>
+        <ul class="nav-dropdown-menu">
+          <li><a href="teaching.html">Courses</a></li>
+          <li><a href="teaching-philosophy.html">Philosophy</a></li>
+          <li><a href="class-activities.html">Activities</a></li>
+          <li><a href="diversity-statement.html">Diversity</a></li>
+          <li><a href="student-feedback.html">Feedback</a></li>
+          <li><a href="teaching-resources.html">Resources</a></li>
+        </ul>
+      </li>
+      <li><a href="awards.html">Awards</a></li>
+      <li><a href="professional.html">Experience</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="fun.html">Fun</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Page Header -->
+<section class="page-header">
+  <h1>Introduction to Database vs. Spreadsheets</h1>
+  <p class="breadcrumb"><a href="index.html">Home</a> &rsaquo; <a href="teaching.html">Teaching</a> &rsaquo; <a href="class-activities.html">Activities</a> &rsaquo; Database vs. Spreadsheets</p>
+</section>
+
+<!-- Main Content -->
+<div class="layout-sidebar">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <ul class="sidebar-nav">
+      <li><a href="teaching.html">Courses</a></li>
+      <li><a href="teaching-philosophy.html">Teaching Philosophy</a></li>
+      <li><a href="class-activities.html" class="active">Class Activities</a></li>
+      <li><a href="diversity-statement.html">Diversity Statement</a></li>
+      <li><a href="student-feedback.html">Student Feedback</a></li>
+      <li><a href="teaching-resources.html">Teaching Resources</a></li>
+    </ul>
+  </aside>
+
+  <!-- Content -->
+  <main>
+
+    <div class="highlight-box">
+      <h3><i class="fas fa-store text-gold"></i> Candy Store Simulation</h3>
+      <p>In this signature classroom exercise, students manage three simulated grocery stores selling Hershey&rsquo;s candy. Students take on roles as managers, employees, and customers, conducting transactions with Monopoly money while maintaining records of all activities.</p>
+    </div>
+
+    <h2><i class="fas fa-cogs text-gold"></i> How It Works</h2>
+
+    <p>People get promoted, hired, fired, change jobs, and get married. They also buy and sell lots of candy with Monopoly money! Students must record data on inventory, sales transactions, customer information, and HR changes.</p>
+
+    <p>Through the hands-on simulation, students experience firsthand how tedious and error-prone it is to maintain data records by hand, especially when lots of people are involved in updating a common data table.</p>
+
+    <h2><i class="fas fa-lightbulb text-gold"></i> Learning Outcomes</h2>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3><i class="fas fa-exclamation-circle text-gold"></i> Data Redundancy</h3>
+        <p>Students discover the problems with storing duplicate data across flat-file spreadsheets.</p>
+      </div>
+      <div class="card">
+        <h3><i class="fas fa-sync-alt text-gold"></i> Update Anomalies</h3>
+        <p>Students experience how changes in one record must be propagated to many places, leading to inconsistencies.</p>
+      </div>
+      <div class="card">
+        <h3><i class="fas fa-gavel text-gold"></i> Legal &amp; Financial Implications</h3>
+        <p>Class discussion covers the real-world consequences of bad records and bad processes for maintaining and tracking data.</p>
+      </div>
+      <div class="card">
+        <h3><i class="fas fa-database text-gold"></i> Need for Databases</h3>
+        <p>The exercise motivates the need for relational database design, normalization, and data integrity constraints.</p>
+      </div>
+    </div>
+
+    <h2><i class="fas fa-download text-gold"></i> Activity Resources</h2>
+
+    <div class="highlight-box">
+      <ul>
+        <li><a href="https://docs.google.com/spreadsheets/d/1-KyP6PGP8pdHCWN5kmgpm1PJ-F3AuvPde07bMlzo0eo/edit?usp=sharing" target="_blank" rel="noopener">Spreadsheet Template (Google Sheets) <i class="fas fa-external-link-alt"></i></a> &mdash; Template for recording transaction and personnel data</li>
+        <li><a href="https://www.dropbox.com/s/hrcgglvs1bnlgcm/Candy%20Database%20Exercise.pptx?dl=0" target="_blank" rel="noopener">Instructor&rsquo;s Manual (PowerPoint) <i class="fas fa-external-link-alt"></i></a> &mdash; Step-by-step guide for running the exercise</li>
+        <li><a href="https://www.dropbox.com/s/ieffpf1m1nypk44/Candy%20DB%20Assignment%20%28Template%29.xlsx?dl=0" target="_blank" rel="noopener">Excel Formula Assignment <i class="fas fa-external-link-alt"></i></a> &mdash; Follow-up assignment template with formula exercises</li>
+      </ul>
+    </div>
+
+    <h2>Credits</h2>
+    <p class="text-muted">Graphics design credit to Christina Solazzo.</p>
+
+  </main>
+
+</div>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <h3>Tingting (Rachel) Chung</h3>
+      <p>Clinical Associate Professor<br>Operations and Information Systems<br>Mason School of Business<br>College of William &amp; Mary</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <ul style="list-style:none;padding:0">
+        <li><a href="research.html">Research</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="awards.html">Awards &amp; Honors</a></li>
+        <li><a href="professional.html">Professional Experience</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Connect</h3>
+      <p>Mason School of Business<br>College of William &amp; Mary<br>Williamsburg, VA</p>
+    </div>
+  </div>
+  <div class="footer-bottom">&copy; 2025 Tingting (Rachel) Chung. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
